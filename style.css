@@ -1,0 +1,122 @@
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #e0e8ff;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+input,
+button,
+submit {
+  border: none;
+}
+button {
+  min-width: 21.875em;
+  font-size: 0.8rem;
+}
+p,
+h1,
+h2 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.component-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 4rem;
+}
+.component-container {
+  max-width: 28.438rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 3px 19px 23px 4px rgba(189, 206, 255, 0.62);
+  margin-bottom: 100px;
+}
+.component-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px 15px 0 0;
+}
+h1 {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  font-size: 1.75rem;
+}
+
+.component-container p {
+  max-width: 18rem;
+  text-align: center;
+  line-height: 1.6em;
+  color: #818588;
+}
+button:last-child {
+  background-color: transparent;
+  font-size: 14px;
+  color: #6c727f;
+  font-weight: bold;
+  margin: 16px 2em 2em 2em;
+}
+button:last-child:hover {
+  color: #15233f;
+}
+
+.annualplan-wrapper {
+  margin: 25px auto 32px auto;
+  display: flex;
+  background-color: #f8f9fe;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 15px;
+  min-width: 330px;
+}
+.annualplan-wrapper h2 {
+  min-width: 5.4em;
+}
+.annualplan-wrapper img {
+  /* padding: 25px 21px 25px 25px; */
+  width: 48px;
+  height: 48px;
+}
+.annualplan-wrapper a {
+  font-size: 14px;
+  font-weight: bold;
+  color: #493ec3;
+  /* margin-left: 2em;
+  margin-right: 1em; */
+}
+.annualplan-wrapper a:hover {
+  text-decoration: none;
+  color: #8a82d8;
+}
+
+.annualplan-container {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+.annualplan-container p {
+  color: #787b8a;
+  margin-top: 2px;
+}
+
+.blue-btn {
+  background-color: #382ae1;
+  color: #ffffff;
+  padding: 1em 5em;
+  font-weight: bold;
+  border-radius: 0.8rem;
+  margin-bottom: 1em;
+  box-shadow: 0px 20px 13px 1px rgba(56, 42, 225, 0.12);
+  min-width: 330px;
+}
+
+.blue-btn:hover {
+  background-color: #766cf1;
+}
