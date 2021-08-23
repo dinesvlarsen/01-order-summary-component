@@ -16,8 +16,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -32,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site URL](https://dinesvlarsen.github.io/01-order-summary-component/)
+-         [Live Site URL](https://dinesvlarsen.github.io/01-order-summary-component/)
 
 ## My process
 
